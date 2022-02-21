@@ -1,0 +1,136 @@
+body {
+    background-image: url("https://www.insidesport.in/wp-content/uploads/2020/08/1-2020-07-17T120354.155-1-696x465-1.jpg");
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+    background-position: center;
+    background-size: cover;
+}
+
+ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul li a {
+    background: #69bbffc9;
+    font-weight: bold;
+    color: #FFF;
+    font-size: 01em;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 30px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    text-shadow: black 0px 0.5px 8px;
+    box-shadow: #69bbffc9 0 0 4px;
+}
+
+ul li a:hover {
+    border-bottom: 3px solid #FFF;
+}
+
+.header {
+    padding: 10px;
+    position: relative;
+}
+
+#head{
+    background-color: blue;
+    color: cornsilk;
+    text-align: center;
+    position: relative;
+    left:-5px;
+    top: 0px;
+    width: 98%;
+    margin-top: 0px;
+    padding: 10px 0px 10px 30px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#testForm{
+    width: 80%;
+    padding-top: 0px;
+    margin: auto;
+    background: rgba(0, 255, 255, 0.596);
+    background-blend-mode: lighten;
+    border: 5px solid blue;
+    border-radius: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#year {
+    position: relative;
+    top: -22px;
+    right: -230px;
+    padding: 5px 0px;
+    padding-left: 5px;
+    font-size: 23px;
+    border-radius: 10px;
+    width: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.submit,
+.reset {
+    background:#1717ff00;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    margin: 0px 0px 0px 20px;
+    text-align: center;
+    border: 5px groove #4d4dfdc2;
+    border-radius: 12px;
+    padding: 10px 15px;
+    color: darkblue;
+    cursor: pointer;
+    transition: 0.25px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sub-res{
+    padding-left: 10px;
+    display: flex;
+    flex: initial;
+}
+
+#result{
+    color: darkblue;
+    font-size: 20px;
+    padding-left: 20px;
+    position: relative;
+    top: -20px;
+}
+
+.rankings{
+    padding-left: 20px;
+    position: relative;
+    top: -20px;
+    visibility: hidden;
+}
+
+.heading {
+    font-size: 32px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: darkblue;
+    position: relative;
+    top: 20px;
+}
+
+ol li{
+    font-size: 25px;
+    color: darkblue;
+}
+
+.rankings.view{
+    visibility: visible;
+    transition: width 2s, height 2s, transform 2s;
+    transform: rotate(360deg);
+}

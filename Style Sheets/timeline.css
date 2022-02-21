@@ -1,0 +1,108 @@
+body {
+    background: url("https://img.freepik.com/free-vector/gradient-dynamic-blue-lines-background_23-2148995756.jpg?size=626&ext=jpg");
+    font: normal 16px/1.5;
+    background-size: cover;
+    margin-bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.header ul li {
+    margin-right: 5px;
+    padding: 10px;
+    list-style: none;
+    background: #6695ec91;
+    box-shadow: 0px 0px 10px #6695ec86;
+}
+
+.header ul li a {
+    font-weight: bold;
+    color: #FFF;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 1em;
+    padding-bottom: 5px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+}
+
+ul li a:hover {
+    border-bottom: 3px solid #FFF;
+}
+
+.header {
+    height: 50%;
+    padding: 10px;
+    background: url("https://image.freepik.com/free-vector/gradient-geometric-shapes-dark-background_23-2148414769.jpg") no-repeat center;
+    width: 98%;
+    background-size: cover;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 0 0 8px 8px #0000ff inset;
+    border: none;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 5%;
+    font-weight: 900;
+    font-size: 3.8rem;
+    text-align: center;
+    color: #FFF;
+    text-shadow: black;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+.timeline ul {
+    background: url("https://i.pinimg.com/736x/79/b4/dc/79b4dc8cc710b85a2e7441623282d4ab.jpg");
+    width: 2%;
+    margin: auto;
+    margin-bottom: 0px;
+    box-shadow: 0px 0px 8px 10px #0066e2 inset;
+}
+
+.timeline ul li {
+    width: 400px;
+    background: linear-gradient(to top left, #2817c7, #0381b8, #c90bf8);
+    /* text-shadow:  1px 1px 7px black; */
+    color: #FFF;
+    padding: 10px;
+    padding-bottom: 15px;
+    list-style: none;
+    visibility: hidden;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.timeline ul li:nth-child(odd) {
+    /* margin-top: 10px; */
+    position: relative;
+    left: 40px;
+}
+
+.timeline ul li:nth-child(even) {
+    position: relative;
+    right: 480px;
+}
+
+.timeline ul li.view {
+    visibility: visible;
+}
+
+time {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+br {
+    content: "A" !important;
+    display: block !important;
+    margin-bottom: 7px !important;
+}
