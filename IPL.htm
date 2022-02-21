@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>IPL RESULTS</title>
+    <link rel="stylesheet" href="./Style Sheets/IPL.css">
+</head>
+
+<body>
+    <div class="header">
+        <div id="navbar" class="container">
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./timeline.html">TIMELINE</a></li>
+                <li><a href="./IPL.htm">IPL RESULTS</a></li>
+            </ul>
+        </div>
+    </div>
+    <form id="testForm">
+
+        <h1 id="head">IPL RESULTS</h1>
+
+        <h1 class="heading">Select Year:</h1>
+        <select name="year" id="year" required>
+            <option value="" selected disabled>Choose</option>
+            <option value="2008">2008</option>
+            <option value="2009">2009</option>
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+        </select>
+
+        <div class="sub-res">
+            <input class="submit" id="submit" type="submit" value="Submit">
+            <input class="reset" type="reset">
+        </div>
+
+        <div class="rankings" id="rankings">
+            <h2 id="centers" class="heading"><u> Rankings: </u></h2>
+            <ol>
+                <li><span id="result1"></span></li>
+                <li><span id="result2"></span></li>
+                <li><span id="result3"></span></li>
+                <li><span id="result4"></span></li>
+                <li><span id="result5"></span></li>
+            </ol>
+        </div>
+    </form>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase.js"></script>
+    <script src="./Scripts/IPL.js"></script>
+</body>
+
+</html>
